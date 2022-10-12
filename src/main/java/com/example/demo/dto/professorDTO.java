@@ -1,6 +1,5 @@
 package com.example.demo.dto;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,7 +11,6 @@ import javax.persistence.GenerationType;
 @AllArgsConstructor
 @NoArgsConstructor
 public class professorDTO {
-
 
         @GeneratedValue(strategy = GenerationType.AUTO)
         private int id;

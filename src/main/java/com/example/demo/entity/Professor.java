@@ -12,6 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Professor {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
@@ -19,8 +20,4 @@ public class Professor {
     private String lastname;
     private int departmentCode;
 
-//    @OneToOne(cascade = CascadeType.ALL)
-//    @JoinColumn( name = "departmentCode")
-//    private Department department;
-//
 }

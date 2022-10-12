@@ -9,5 +9,6 @@ import java.util.Optional;
 
 @Repository
 public interface ProfessorRepository extends JpaRepository<Professor,Integer> {
-    Professor findBydepartmentCode(int departmentCode );
+    Professor findByDepartmentCode(int departmentCode );
+
 }
