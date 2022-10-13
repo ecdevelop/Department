@@ -25,7 +25,6 @@ public class schoolData {
     private List<Department> department;
 
 }
-
 //    List<Object>[] ListOfArrays ;
 //    ArrayList<Object> hi;
 //    HashMap<String, Object> hashMap = new HashMap<>();

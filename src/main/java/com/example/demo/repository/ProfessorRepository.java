@@ -10,5 +10,4 @@ import java.util.Optional;
 @Repository
 public interface ProfessorRepository extends JpaRepository<Professor,Integer> {
     Professor findByDepartmentCode(int departmentCode );
-
 }

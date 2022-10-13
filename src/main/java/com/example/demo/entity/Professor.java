@@ -19,5 +19,6 @@ public class Professor {
     private String firstname;
     private String lastname;
     private int departmentCode;
+    private String[] hobbies;
 
 }
