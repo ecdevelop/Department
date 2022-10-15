@@ -23,5 +23,4 @@ public class Department {
     private Long departmentId;
     private int departmentCode;
     private String departmentName;
-
 }

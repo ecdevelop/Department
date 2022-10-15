@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PeopleRepository {
-
             public static void main (String[] args) {
 //                Professor p = new Professor();
 //                Professor p2 = new Professor();

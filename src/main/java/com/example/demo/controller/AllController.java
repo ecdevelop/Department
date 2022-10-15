@@ -16,17 +16,14 @@ import java.util.List;
 public class AllController {
     @Autowired
     AllService allService;
-
     @GetMapping("/")
     public String helloWorld(){
         return "Hello World!";
     }
-
     @GetMapping("/schoolData")
     public List<schoolData> schoolDataList(){
         return allService.getSchoolData();
     }
-
     @GetMapping("/getProfessorDTO")
     public List<professorDTO> getProfessorDTO(){
         return allService.professors();
